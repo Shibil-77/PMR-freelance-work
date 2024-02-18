@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="md:container m-5">
         <AboutUs />
       </div>
     </>
