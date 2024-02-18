@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="lg:container ">
-      <nav className="sticky top-0  bg-[#E0E0E0] z-50 p-0 py-5   lg:border-b-[3px] border-opacity-40 border-black ">
+      <nav className="sticky top-0   z-50 p-0 py-5  ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
             {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
@@ -98,12 +98,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      <div class="w-full pb-3 lg:border-t-0 border-t-2 border-b-[3px] border-opacity-40 border-black">
-        <p className="lg:text-[10.8rem] text-center text-7xl font-extrabold">
-          BUILD WITH US
-        </p>
-      </div>
     </div>
   );
 };
