@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-// import { FaPhoneAlt } from "react-icons/fa";
-// import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,18 +10,24 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const arr = ["HOME", "ABOUT", "SERVICES", "CONTACT"];
+
   return (
-    <div className="lg:container ">
-      <nav className="sticky top-0   z-50 p-0 py-5  ">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between ">
+    <div className="container">
+      <nav className="sticky top-0 z-50 p-0 py-5 w-full">
+        <div className="w-full flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
             {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
             <h1 className="text-2xl font-bold">PMR CONCRETE</h1>
           </a>
           <div className="flex md:order-2 ">
             <div className="flex lg:space-x-6 ">
-              {/* <span className="text-lg self-center"><FaPhoneAlt/></span>
-              <span className="text-2xl self-center"><MdEmail/></span> */}
+              <span className="text-lg self-center">
+                <FaPhoneAlt />
+              </span>
+              <span className="text-2xl self-center">
+                <MdEmail />
+              </span>
             </div>
             <div className="lg:block hidden self-center">
               <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
@@ -61,39 +67,19 @@ const Navbar = () => {
             id="navbar-sticky"
           >
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-semibold bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0"
-                  aria-current="page"
-                >
-                  HOME
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
-                >
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
-                >
-                  PRICING
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0 "
-                >
-                  CONTACT
-                </a>
-              </li>
+              {arr.map((value, index) => {
+                return (
+                  <li key={value}>
+                    <a
+                      href="/"
+                      className="block font-poppins py-2 pl-3 pr-4 text-text-color  rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0"
+                      aria-current="page"
+                    >
+                      {value}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import Service from "../../components/Service/Service";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <h1>Hello world</h1>
-      </div>
+      <div className="container"></div>
+      <Service />
     </>
   );
 };
