@@ -13,7 +13,9 @@ module.exports = {
         center: true,
         padding: '5rem', // You can adjust the padding as needed
       }, fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        
       },
     },
   },

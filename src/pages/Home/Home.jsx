@@ -10,6 +10,7 @@ const Home = () => {
       <div className="md:container m-5">
         <AboutUs />
       </div>
+      <Service />
     </>
   );
 };
