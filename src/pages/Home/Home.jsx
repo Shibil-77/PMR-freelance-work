@@ -5,6 +5,8 @@ import Service from "../../components/Service/Service";
 import Details from "../../components/details/Details";
 import Features from "../../components/features/Features";
 import Certified from "../../components/certified/Certified";
+import Clients from '../../components/clients/Clients'
+import Footers from "../../components/footer/Footer";
 
 const Home = () => {
   return (
@@ -20,7 +22,9 @@ const Home = () => {
         </div>
       </div>
       <Features />
-      <Certified/>
+      <Certified />
+      <Clients />
+      <Footers />
     </>
   );
 };
