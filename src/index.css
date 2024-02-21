@@ -17,6 +17,10 @@ body {
   display: none;
 }
 
+.bg-common {
+  background: linear-gradient(to top, #000000,transparent);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

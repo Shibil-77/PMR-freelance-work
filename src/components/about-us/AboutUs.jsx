@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="mt-5 w-1/2  hidden md:flex md:justify-center relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
             <img className="w-full h-96 rounded-xl max-w-xs transition duration-300 ease-in-out hover:scale-110" src={img} alt="" />
           </div>
-          <div className=" my-5 md:w-1/2">
+          <div className="my-5  md:w-1/2">
             <div className="grid grid-cols-2 gap-3 md:gap-5">
               <div className="flex gap-2 relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                 <h2 className="flex items-center font-semibold text-5xl max-w-xs transition duration-300 ease-in-out hover:scale-110">32</h2>

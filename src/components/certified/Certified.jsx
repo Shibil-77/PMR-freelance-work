@@ -9,14 +9,14 @@ const Certified = () => {
           <div className="w-full h-3/6 bg-gray-50">
             <img src={img1} alt="" className="w-full h-full" />
           </div>
-          <div className="w-full h-3/6 bg-orange-700 flex justify-center items-center">
+          <div className="w-full h-3/6 bg-[#f0f0f0] flex justify-center items-center">
             <h1 className="text-2xl text-center font-semibold">
               A Quality Readymix Cement Solutions for the Construction Industry
             </h1>
           </div>
         </div>
         <div className="w-6/12  bg-blue-900">
-          <div className="w-full h-3/6 bg-red-950 flex justify-center items-center">
+          <div className="w-full h-3/6 bg-[#333333] flex justify-center items-center">
             <h1 className="text-2xl text-center font-semibold text-white">
               A Quality Readymix Cement Solutions for the Construction Industry
             </h1>

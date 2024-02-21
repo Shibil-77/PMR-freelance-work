@@ -18,7 +18,7 @@ const Service = () => {
             className="block w-full h-auto"
           />
 
-          <div className="absolute inset-0 bg-red-700 opacity-85"></div>
+          <div className="absolute inset-0 bg-black opacity-85"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="" onClick={() => setYtShow(true)}>

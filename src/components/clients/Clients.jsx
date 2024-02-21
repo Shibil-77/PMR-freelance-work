@@ -1,4 +1,5 @@
 import React from "react";
+import Rating from "./Rating";
 // import "./review.css"
 // import RatingStars from "../RatingStars/RatingStars";
 // import { BsTwitter } from 'react-icons/bs'
@@ -19,17 +20,19 @@ const Review = () => {
 
   return (
     <>
-      <h1 className="text-red-600 text-lg mt-10 text-center font-poppins font-bold">
-      TESTIMONIALS
-      </h1>
-      <h1 className="text-4xl font-bold text-center text-[#343232] my-2">
-      Client Reviews
-      </h1>
-      <div className="mt-2 flex gap-3 lg:gap-8 overflow-x-scroll container forScroll py-10 scroll-container">
+      <div className="container">
+        <h1 className="text-red-600 text-lg mt-10 font-poppins font-bold">
+          TESTIMONIALS
+        </h1>
+        <h1 className="text-4xl font-bold text-[#343232] my-2">
+          Client Reviews
+        </h1>
+      </div>
+      <div className="mt-2 flex gap-3 lg:gap-8 overflow-x-scroll container forScroll py-10 scroll-container ">
         {arr.map((value) => (
           <div className="forBorderPadding  bg-gradient-to-t from-[#3e3e3e] to-[#4e4e4e] p-[1.6px] rounded-[20px] min-w-[80%] md:min-w-[385px]  w-full ">
             <div className="pt-10 px-4 lg:px-8 h-full min-w-full md:min-w-full rounded-[20px] bg-white   from-[#031c18] to-transparent">
-              {/* <RatingStars ratingValue={value.rate}/> */}
+              <Rating ratingValue={value.rate}/>
               <p className="font-normal text-[#000000] mt-5 leading-10">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
