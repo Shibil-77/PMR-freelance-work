@@ -44,7 +44,7 @@ const AboutUs = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-[#F9FAF4] mt-5 md:mt-10 p-2 rounded-md relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+            <div className=" mt-5 md:mt-10 p-2 rounded-md relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
              <p className="max-w-xs  transition duration-300 ease-in-out hover:scale-105">We, a division of the leading business company - the Best Group, Thrissur, are committed to providing high-quality ready-mix concrete solutions to the diverse needs of the construction industry. We produce and supply ready mixed concrete to customers through a network of fixed</p>
             </div>
 

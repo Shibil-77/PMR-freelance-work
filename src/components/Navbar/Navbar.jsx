@@ -13,7 +13,7 @@ const Navbar = () => {
   const arr = ["HOME", "ABOUT", "SERVICES", "CONTACT"];
 
   return (
-    <div className="container">
+    <div className="lg:container lg:mx-0 mx-5">
       <nav className="sticky top-0 z-50 p-0 py-5 w-full">
         <div className="w-full flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">

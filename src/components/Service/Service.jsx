@@ -1,13 +1,16 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from "react";
+import React, { useState } from "react";
 import imageOne from "../../assets/IMG-20240210-WA0004.jpg";
 import videoIcon from "../../assets/svg/icon-videoplay.svg";
 import Button from "../common/Button";
+import Ytmodal from "../yt-modal/Ytmodal";
 
 const Service = () => {
+  const [ytShow, setYtShow] = useState(false);
   return (
     <>
-      <div className="lg:flex">
+      {ytShow ? <Ytmodal ytShow={setYtShow} /> : ""}
+      <div className="lg:flex relative">
         <div className="relative lg:w-6/12 w-full">
           <img
             src={imageOne}
@@ -18,7 +21,7 @@ const Service = () => {
           <div className="absolute inset-0 bg-red-700 opacity-85"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="">
+            <div className="" onClick={() => setYtShow(true)}>
               <img src={videoIcon} alt="" className="mx-auto" />
               <h1 className="text-white text-2xl ml">Corporate Video</h1>
             </div>
@@ -40,7 +43,7 @@ const Service = () => {
             of all scales.
           </p>
           <div className="my-6">
-            <Button value="Discover More"/>
+            <Button value="Discover More" />
           </div>
         </div>
       </div>
