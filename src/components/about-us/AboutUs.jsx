@@ -1,6 +1,6 @@
 import React from "react";
-import img from "../../assets/instaport-style-documentary-study-in-the-style-of-mc-escher-close-up-of-a-left-hand-and-a-right--409361361.png";
-import img2 from '../../assets/img25.avif'
+import img from "../../assets/IMG-20240222-WA0001.jpg";
+import img2 from '../../assets/img/DSC06643_50 (1).jpg'
 const AboutUs = () => {
   return (
     <div className="grid w-full  grid-cols-1 md:grid-cols-2 gap-5 md:gap-10">
