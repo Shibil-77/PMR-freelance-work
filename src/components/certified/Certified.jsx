@@ -11,7 +11,7 @@ const Certified = () => {
           </div>
           <div className="w-full h-3/6 bg-[#f0f0f0] flex justify-center items-center">
             <h1 className="text-2xl text-center font-semibold">
-              A Quality Readymix Cement Solutions for the Construction Industry
+              An ISO 9001 : 2015 QCI Certified Organization
             </h1>
           </div>
         </div>

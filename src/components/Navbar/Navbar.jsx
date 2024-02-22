@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import logo from '../../assets/LOGO-01.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,8 +18,8 @@ const Navbar = () => {
       <nav className="sticky top-0 z-50 p-0 py-5 w-full">
         <div className="w-full flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
-            {/* <img src={Logo} className="h-14 mr-3" alt="Logo" /> */}
-            <h1 className="text-2xl font-bold">PMR CONCRETE</h1>
+            <img src={logo} className="w-28  mr-3" alt="Logo" />
+            {/* <h1 className="text-2xl font-bold">PMR CONCRETE</h1> */}
           </a>
           <div className="flex md:order-2 ">
             <div className="flex lg:space-x-6 ">
