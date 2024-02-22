@@ -7,12 +7,12 @@ const Gallery = () => {
     <div className="bg-[#f0f0f0] py-10 pb-20">
       <div className="container flex justify-between">
         <div>
-          <h1 className="text-red-600 text-lg mt-10  font-poppins font-bold">
+          <h1 className="text-red-600 lg:text-lg text-sm mt-10  font-poppins font-bold">
             PHOTO GALLERY
           </h1>
           <h1 className="text-4xl font-bold  text-[#343232] my-2">Gallery</h1>
         </div>
-        <div className="flex items-end">
+        <div className="lg:flex items-end hidden">
           <Button value={"View Gallery"} />
         </div>
       </div>
