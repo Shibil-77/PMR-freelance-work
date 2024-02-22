@@ -23,9 +23,15 @@ const Navbar = () => {
           </a>
           <div className="flex md:order-2 ">
             <div className="flex lg:space-x-6 ">
-              <span className="text-2xl self-center">
-                <MdOutlineLocalPhone />
-              </span>
+              <a
+                href="tel:+919188777704"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-2xl self-center">
+                  <MdOutlineLocalPhone />
+                </span>
+              </a>
               <a
                 href="mailto:pmrconcrete@pmrinfos.com"
                 target="_blank"
