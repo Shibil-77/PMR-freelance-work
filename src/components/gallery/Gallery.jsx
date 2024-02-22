@@ -22,7 +22,7 @@ const Gallery = () => {
             <div className="section-1 space-y-5">
               <div className="h-[200px] md:h-[300px] w-full relative rounded-lg">
                 <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div className="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699269763/dominik-vanyi-Mk2ls9UBO2E-unsplash_hd09ox.jpg)] h-full w-full bg-cover rounded-lg">
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594090/PMR-img/tqylxeamhymxwhwoknc3.jpg)] h-full w-full bg-cover rounded-lg">
                   <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
@@ -42,7 +42,7 @@ const Gallery = () => {
 
               <div className="h-[200px] md:h-[300px] w-full relative rounded-lg">
                 <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div className="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699264366/josh-olalde-X1P1_EDNnok-unsplash_uv7k2d.jpg)] h-full w-full bg-cover rounded-lg">
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594090/PMR-img/xg64ahrrtd6xmzdeyyu0.jpg)] h-full w-full bg-cover rounded-lg">
                   <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
@@ -63,7 +63,7 @@ const Gallery = () => {
             <div className="section-2">
               <div className="h-[200px] md:h-[620px] w-full bg-cover relative rounded-lg">
                 <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div className="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699264394/ashkan-forouzani-_Y82jqFIBgw-unsplash_fo0eqg.jpg)] h-full w-full bg-cover rounded-lg">
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594089/PMR-img/a80qe1pqd0uzuofigfeo.jpg)] h-full w-full bg-cover rounded-lg">
                   <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
@@ -87,7 +87,7 @@ const Gallery = () => {
             <div className="section-1 space-y-5">
               <div className="h-[200px] md:h-[300px] w-full relative rounded-lg">
                 <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div className="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699269763/dominik-vanyi-Mk2ls9UBO2E-unsplash_hd09ox.jpg)] h-full w-full bg-cover rounded-lg">
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594089/PMR-img/enwcosf1jyuaezjoqmnw.jpg)] h-full w-full bg-cover rounded-lg">
                   <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
@@ -107,7 +107,7 @@ const Gallery = () => {
 
               <div className="h-[200px] md:h-[300px] w-full relative rounded-lg">
                 <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div className="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699264366/josh-olalde-X1P1_EDNnok-unsplash_uv7k2d.jpg)] h-full w-full bg-cover rounded-lg">
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594089/PMR-img/eo1nobyabttn78dxfoml.jpg)] h-full w-full bg-cover rounded-lg">
                   <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
@@ -126,10 +126,10 @@ const Gallery = () => {
             </div>
 
             <div className="section-2">
-              <div class="h-[200px] md:h-[620px] w-full bg-cover relative rounded-lg">
-                <div class="absolute inset-0 bg-common rounded-lg"></div>
-                <div class="bg-[url(https://res.cloudinary.com/dbb0ncoht/image/upload/v1699264394/ashkan-forouzani-_Y82jqFIBgw-unsplash_fo0eqg.jpg)] h-full w-full bg-cover rounded-lg ">
-                  <div class="absolute bottom-0 px-5 py-5 w-full flex justify-between">
+              <div className="h-[200px] md:h-[620px] w-full bg-cover relative rounded-lg">
+                <div className="absolute inset-0 bg-common rounded-lg"></div>
+                <div className="bg-[url(https://res.cloudinary.com/dzarzvfph/image/upload/v1708594089/PMR-img/a80qe1pqd0uzuofigfeo.jpg)] h-full w-full bg-cover rounded-lg ">
+                  <div className="absolute bottom-0 px-5 py-5 w-full flex justify-between">
                     <div>
                       {/* <h1 class="text-white font-semibold text-xl md:text-2xl">
                         Growup for your construction company?
