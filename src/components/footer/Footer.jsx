@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import logo from "../../assets/LOGO-01.png";
 
@@ -27,14 +28,15 @@ const Footers = () => {
                   {/* <span className="dark:block">PMR-CONCRETE</span> */}
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  <strong>Company location :</strong> Malappuram, Kerala 676517
-                  <br />
-                  Support Ai
+                  <strong>Company location :</strong> West Chathallur Road, <br />
+                  Othayi, Edavanna,  Malappuram, <br /> Pin: 676 541,
+                 
+                  Kerala, India
                 </p>
 
-                <p className="mb-7 text-base text-body-color dark:text-dark-6">
+                {/* <p className="mb-7 text-base text-body-color dark:text-dark-6">
                   Kochi, Kerala 682028
-                </p>
+                </p> */}
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-text-color">
                     <svg
@@ -65,7 +67,7 @@ const Footers = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>+91 9999999999</span>
+                  <span>+91  9188777704</span>
                 </p>
               </div>
             </div>
@@ -96,7 +98,8 @@ const Footers = () => {
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a
-                    href="https://www.facebook.com/#"
+                    href="https://www.facebook.com/pmrconcrete?mibextid=ZbWKwL"
+                    target="_blank"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-texttext-text-color hover:bg-text-color hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-texttext-text-color sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -135,7 +138,8 @@ const Footers = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://instagram.com/#"
+                    target="_blank"
+                    href="https://www.instagram.com/pmrconcrete?igsh=MTJkcGJyeGF3cWxsNg=="
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-texttext-text-color  dark:border-dark-3 dark:text-white dark:hover:border-texttext-text-color sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <img

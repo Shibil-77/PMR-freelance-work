@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import logo from '../../assets/LOGO-01.png'
+import { MdMailOutline } from "react-icons/md";
+import { MdOutlineLocalPhone } from "react-icons/md";
+import logo from "../../assets/LOGO-01.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  const arr = ["HOME", "ABOUT", "SERVICES", "CONTACT"];
+  const arr = ["Home", "About", "Servies", "Contact"];
 
   return (
     <div className="lg:container lg:mx-0 mx-5">
@@ -23,12 +23,18 @@ const Navbar = () => {
           </a>
           <div className="flex md:order-2 ">
             <div className="flex lg:space-x-6 ">
-              <span className="text-lg self-center">
-                <FaPhoneAlt />
-              </span>
               <span className="text-2xl self-center">
-                <MdEmail />
+                <MdOutlineLocalPhone />
               </span>
+              <a
+                href="mailto:pmrconcrete@pmrinfos.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="text-2xl self-center">
+                  <MdMailOutline />
+                </span>
+              </a>
             </div>
             <div className="lg:block hidden self-center">
               <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
@@ -73,7 +79,7 @@ const Navbar = () => {
                   <li key={value}>
                     <a
                       href="/"
-                      className="block font-poppins py-2 pl-3 pr-4 text-text-color  rounded hover:bg-primary md:hover:bg-transparent md:hover:text-gray-500 md:p-0"
+                      className="block font-serif py-2 pl-3 pr-4 text-text-color  rounded hover:bg-[#31aa65] md:hover:bg-transparent md:hover:text-[#31aa65] md:p-0"
                       aria-current="page"
                     >
                       {value}
